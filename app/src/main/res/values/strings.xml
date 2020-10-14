@@ -10,5 +10,8 @@
     <string name="para">Para</string>
     <string name="asunto">Asunto</string>
     <string name="enviar">Enviar</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="agregar">Agregar</string>
 
 </resources>

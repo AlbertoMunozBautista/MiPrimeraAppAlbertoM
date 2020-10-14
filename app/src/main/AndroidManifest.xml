@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".ContactoActivity">
+        </activity>
         <activity android:name=".CorreoActivity">
         </activity>
         <activity android:name=".MainActivity">

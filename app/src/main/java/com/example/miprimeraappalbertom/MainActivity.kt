@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.menu_amigo -> {
-
+                val intent = Intent(this, ContactoActivity::class.java);
+                startActivity(intent)
                 true
             }
             R.id.menu_cita -> {
