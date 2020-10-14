@@ -8,8 +8,8 @@
         android:background="@drawable/bg_degradado"
         tools:context=".MainActivity">
     <ImageView
-            android:layout_width="299dp"
-            android:layout_height="402dp" app:srcCompat="@drawable/logo_instituto" android:id="@+id/MainImaLogo"
+            android:layout_width="531dp"
+            android:layout_height="201dp" app:srcCompat="@drawable/logo_instituto" android:id="@+id/MainImaLogo"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="40dp"/>
     <TextView
