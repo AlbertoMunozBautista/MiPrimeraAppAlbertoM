@@ -46,7 +46,8 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.menu_acerca_de -> {
-
+                val intent = Intent(this, AcercaDeActivity::class.java);
+                startActivity(intent)
                 true
             }
 

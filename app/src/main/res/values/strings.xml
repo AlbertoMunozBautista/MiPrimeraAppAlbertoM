@@ -1,7 +1,6 @@
 <resources>
 
     <string name="app_name">MiPrimeraAppAlbertoM</string>
-
     <string name="menu_nota">Nota</string>
     <string name="menu_correo">Correo</string>
     <string name="menu_amigo">Amigo</string>
@@ -18,5 +17,6 @@
     <string name="titulo">Título</string>
     <string name="locaclizacion">Localización</string>
     <string name="añadir">Añadir</string>
+    <string name="miNombre">Alberto Muñoz Bautista</string>
 
 </resources>
