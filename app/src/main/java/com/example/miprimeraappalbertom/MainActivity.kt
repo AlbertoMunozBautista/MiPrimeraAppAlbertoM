@@ -40,7 +40,8 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.menu_cita -> {
-
+                val intent = Intent(this, CitaActivity::class.java);
+                startActivity(intent)
                 true
             }
             R.id.menu_acerca_de -> {

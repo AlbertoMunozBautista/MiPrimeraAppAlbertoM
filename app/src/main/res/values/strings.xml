@@ -13,5 +13,9 @@
     <string name="nombre">Nombre</string>
     <string name="correo">Correo</string>
     <string name="agregar">Agregar</string>
+    <string name="fechaIni">Fecha Inicio</string>
+    <string name="fechaFin">Fecha Fin</string>
+    <string name="titulo">Título</string>
+    <string name="locaclizacion">Localización</string>
 
 </resources>
