@@ -7,5 +7,8 @@
     <string name="menu_amigo">Amigo</string>
     <string name="menu_cita">Cita</string>
     <string name="menu_acerca_de">Acerca De</string>
+    <string name="para">Para</string>
+    <string name="asunto">Asunto</string>
+    <string name="enviar">Enviar</string>
 
 </resources>
