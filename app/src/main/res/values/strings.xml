@@ -1,3 +1,23 @@
 <resources>
+
     <string name="app_name">MiPrimeraAppAlbertoM</string>
+    <string name="menu_nota">Nota</string>
+    <string name="menu_correo">Correo</string>
+    <string name="menu_amigo">Amigo</string>
+    <string name="menu_cita">Cita</string>
+    <string name="menu_acerca_de">Acerca De</string>
+    <string name="para">Para</string>
+    <string name="asunto">Asunto</string>
+    <string name="enviar">Enviar</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="agregar">Agregar</string>
+    <string name="fechaIni">Fecha Inicio</string>
+    <string name="fechaFin">Fecha Fin</string>
+    <string name="titulo">Título</string>
+    <string name="locaclizacion">Localización</string>
+    <string name="añadir">Añadir</string>
+    <string name="miNombre">Alberto Muñoz Bautista</string>
+    <string name="nombreCiclo">Programación multimedia y dispositivos móviles</string>
+
 </resources>

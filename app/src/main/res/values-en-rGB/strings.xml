@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiPrimeraAppAlbertoM</string>
+    <string name="menu_correo">Email</string>
+    <string name="menu_amigo">Friend</string>
+    <string name="menu_cita">Date</string>
+    <string name="menu_acerca_de">About me</string>
+    <string name="para">For</string>
+    <string name="asunto">Note</string>
+    <string name="enviar">Send</string>
+    <string name="nombre">Name</string>
+    <string name="correo">Email</string>
+    <string name="agregar">Add</string>
+    <string name="fechaIni">Start Hour</string>
+    <string name="fechaFin">Start Hour</string>
+    <string name="titulo">Title</string>
+    <string name="locaclizacion">Location</string>
+    <string name="añadir">Add</string>
+    <string name="miNombre">Alberto Muñoz Bautista</string>
+    <string name="nombreCiclo">Multimedia programming and mobile devices</string>
+    <string name="menu_nota">Note</string>
+</resources>
