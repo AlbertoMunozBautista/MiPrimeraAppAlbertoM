@@ -17,5 +17,6 @@
     <string name="fechaFin">Fecha Fin</string>
     <string name="titulo">Título</string>
     <string name="locaclizacion">Localización</string>
+    <string name="añadir">Añadir</string>
 
 </resources>

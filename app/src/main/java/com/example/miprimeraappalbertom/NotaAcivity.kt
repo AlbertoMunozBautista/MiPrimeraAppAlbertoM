@@ -1,37 +1,35 @@
 package com.example.miprimeraappalbertom
 
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import kotlinx.android.synthetic.main.activity_correo.*
+import com.google.android.gms.actions.NoteIntents
+import kotlinx.android.synthetic.main.activity_nota.*
 
-class CorreoActivity : AppCompatActivity() {
+class NotaAcivity : AppCompatActivity() {
 
     private var asunto: String = ""
     private var texto: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_correo)
+        setContentView(R.layout.activity_nota)
 
         val actionbar = supportActionBar
         //Establecer el nombre
-        actionbar!!.title = "Mandar Correo"
+        actionbar!!.title = "Añadir Nota"
         //Establecer el botón de volver atrás
         actionbar.setDisplayHomeAsUpEnabled(true)
         actionbar.setDisplayHomeAsUpEnabled(true)
 
+        NotaBtnAñadir.setOnClickListener{
+            this.asunto = NotaEtAsunto.text.toString()
+            this.texto = NotaEtTexto.text.toString()
 
-        //Cuando pulsamos el botón de enviar
-        CorreoBtnEnviar.setOnClickListener{
-            this.asunto = CorreoEtAsunto.text.toString()
-            this.texto = CorreoEtTexto.text.toString()
-            val destinatario = arrayOf(CorreoEtPara.text.toString())
+            createNote(asunto, texto)
 
-            composeEmail(destinatario, asunto, texto)
         }
+
 
     }
 
@@ -40,14 +38,13 @@ class CorreoActivity : AppCompatActivity() {
         return true
     }
 
-    //Función que contiene los intent para enviar el correo
-    fun composeEmail(destinatario: Array<String>, asunto: String, texto : String) {
-        val intent = Intent(Intent.ACTION_SENDTO).apply {
-            data = Uri.parse("mailto:") // only email apps should handle this
-            putExtra(Intent.EXTRA_EMAIL, destinatario)
-            putExtra(Intent.EXTRA_SUBJECT, asunto)
-            putExtra(Intent.EXTRA_TEXT, texto)
+    fun createNote(asunto: String, texto: String) {
+        val intent = Intent(NoteIntents.ACTION_CREATE_NOTE).apply {
+            putExtra(NoteIntents.EXTRA_NAME, asunto)
+            putExtra(NoteIntents.EXTRA_TEXT, texto)
+
         }
+        //startActivity(intent)
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
         }
@@ -78,6 +75,7 @@ class CorreoActivity : AppCompatActivity() {
 
         }
     }
+
 
 
 }

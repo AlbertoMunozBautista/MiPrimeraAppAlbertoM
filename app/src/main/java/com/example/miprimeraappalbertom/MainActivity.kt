@@ -26,7 +26,8 @@ class MainActivity : AppCompatActivity() {
         // Handle item selection
         return when (item.itemId) {
             R.id.menu_nota -> {
-
+                val intent = Intent(this, NotaAcivity::class.java);
+                startActivity(intent)
                 true
             }
             R.id.menu_correo -> {
