@@ -1,3 +1,11 @@
 <resources>
+
     <string name="app_name">MiPrimeraAppAlbertoM</string>
+
+    <string name="menu_nota">Nota</string>
+    <string name="menu_correo">Correo</string>
+    <string name="menu_amigo">Amigo</string>
+    <string name="menu_cita">Cita</string>
+    <string name="menu_acerca_de">Acerca De</string>
+
 </resources>
